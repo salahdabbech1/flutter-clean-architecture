@@ -2,15 +2,12 @@
 
 A Sample flutter project that implements clean architecture
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+this project uses:
+- [Bloc](https://pub.dev/packages/bloc) for state management
+- [flutter_bloc](https://pub.dev/packages/flutter_bloc)
+- [dio](https://pub.dev/packages/dio) for making http calls
+- [freezed](https://pub.dev/packages/freezed) for defining our data classes
+- [get_it](https://pub.dev/packages/get_it) as a service locator
+- [auto_route](https://pub.dev/packages/auto_route) for a more simplified routing
+- [hive](https://pub.dev/packages/hive) as  local storage
+- [injectable](https://pub.dev/packages/injectable) for dependency injection
